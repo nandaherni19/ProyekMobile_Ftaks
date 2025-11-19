@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ftaks">
         <activity
+            android:name=".home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".item_jadwal"
+            android:exported="false" />
+        <activity
+            android:name=".beritaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tugasSayaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JadwalActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

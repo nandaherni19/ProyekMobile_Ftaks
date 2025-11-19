@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tugasFragment"
+        android:icon="@drawable/tugas"
+        android:title="Tugas"
+        />
+
+    <item
+        android:id="@+id/jadwalFragment"
+        android:icon="@drawable/jadwal"
+        android:title="Jadwal"
+        />
+
+    <item
+        android:id="@+id/beritaFragment"
+        android:icon="@drawable/berita"
+        android:title="Berita"
+        />
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home.xml"
+    app:startDestination="@id/tugasFragment">
+
+    <fragment
+        android:id="@+id/tugasFragment"
+        android:name="com.example.ftaks.home.tugasFragment"
+        android:label="fragment_tugas"
+        tools:layout="@layout/fragment_tugas" />
+    <fragment
+        android:id="@+id/jadwalFragment"
+        android:name="com.example.ftaks.home.jadwalFragment"
+        android:label="fragment_jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+    <fragment
+        android:id="@+id/beritaFragment"
+        android:name="com.example.ftaks.home.beritaFragment"
+        android:label="fragment_berita"
+        tools:layout="@layout/fragment_berita" />
+</navigation>
