@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="6dp"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+    <!-- GAMBAR BERITA -->
+    <ImageView
+        android:id="@+id/imageViewBerita"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Gambar Berita"
+        tools:src="@drawable/berita" />
+
+    <!-- JUDUL -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="Judul Berita Lorem Ipsum" />
+
+    <!-- DESKRIPSI -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        tools:text="Deskripsi singkat berita kampus..." />
+
+    <!-- TANGGAL / KATEGORI -->
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:text="Kategori: Kampus" />
+
+</LinearLayout>
