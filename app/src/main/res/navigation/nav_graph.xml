@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/beritaFragment">
+
+    <fragment
+        android:id="@+id/beritaFragment"
+        android:name="com.example.ftaks.home.beritaFragment"
+        android:label="Berita"
+        tools:layout="@layout/fragment_berita" />
+
+    <fragment
+        android:id="@+id/tugasFragment"
+        android:name="com.example.ftaks.home.tugasFragment"
+        android:label="Tugas"
+        tools:layout="@layout/fragment_tugas" />
+
+    <fragment
+        android:id="@+id/jadwalFragment"
+        android:name="com.example.ftaks.home.jadwalFragment"
+        android:label="Jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/tambahJadwalFragment"
+        android:name="com.example.ftaks.home.TambahJadwalFragment"
+        android:label="Tambah Jadwal"
+        tools:layout="@layout/fragment_tambah_jadwal" />
+
+    <fragment
+        android:id="@+id/DetailBeritaFragment"
+        android:name="com.example.ftaks.home.DetailBeritaFragment"
+        tools:layout="@layout/fragment_detail_berita" />
+
+
+</navigation>

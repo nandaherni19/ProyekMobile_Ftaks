@@ -1,4 +1,4 @@
-package com.example.ftaks
+package com.example.ftaks.ui
 
 // Enum untuk mempermudah pengelolaan prioritas
 enum class Prioritas {

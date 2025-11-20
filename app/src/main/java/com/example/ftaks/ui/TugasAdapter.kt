@@ -1,4 +1,4 @@
-package com.example.ftaks
+package com.example.ftaks.ui
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.ftaks.R
 
 class TugasAdapter(private val context: Context, private val listTugas: List<Tugas>) :
     RecyclerView.Adapter<TugasAdapter.TugasViewHolder>() {

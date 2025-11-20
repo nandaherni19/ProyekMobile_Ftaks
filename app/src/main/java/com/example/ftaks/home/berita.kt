@@ -1,4 +1,4 @@
-package com.example.ftaks
+package com.example.ftaks.home
 
 enum class BeritaCategory(val displayName: String) {
     AKADEMIK("Akademik"),

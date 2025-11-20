@@ -1,4 +1,4 @@
-package com.example.ftaks
+package com.example.ftaks.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.ftaks.R
+import com.example.ftaks.home.HomeActivity
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
             if (editTextUsername.text.toString()=="ferry" && editTextPassword.text.toString()=="1234"){
                 Toast.makeText(this, "Login Berhasil", Toast.LENGTH_SHORT).show()
 
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra(KEY_USERNAME,username)
                 startActivity(intent)
 
